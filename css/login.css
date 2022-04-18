@@ -1,0 +1,224 @@
+header{
+    width: 100%;
+    height: 300px;
+    background: rgb(125,125,245);
+    background: linear-gradient(225deg, rgba(125,125,245,1) 0%, rgba(5,5,247,1) 100%);
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curuser{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin:  0 50px;
+}
+
+.curuser> button{
+    padding: 10px 20px;
+    background: rgb(34,193,195);
+    background: linear-gradient(128deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    color: white;
+}
+
+button>a{
+    text-decoration: nope;
+}
+
+button>a:visited{
+    text-decoration: nope;
+}
+
+h1{
+    margin-top: 5vh;
+    font-size: 36px;
+}
+
+nav{
+    align-self: flex-end;
+    width:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:  10px 50px 50px 0;
+}
+
+a{
+    color: beige;
+    font-size: 24px;
+}
+
+main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    min-height: calc(100vh - 300px - 130px);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form{
+    margin-top: 5vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.userinput{
+    width: 20vw;
+    height: 50px;
+    border-radius: 5%;
+    background-color:rgb(125,125,245)  ;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.userinput::placeholder{
+    color: rgb(245, 245, 245,0.7);
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+}
+
+button{
+    border: blue 2px solid;
+    background-color: blue;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 15%;
+}
+
+.announcement{
+    font-size: 24px;
+}
+
+.hello{
+    font-size: 16px;
+}
+
+.bluetext{
+    color: blue;
+}
+
+footer{
+     margin-top: 30px;
+    width: 100%;
+    min-height: 100px; 
+    background: rgb(125,125,245);
+    background: linear-gradient(225deg, rgba(125,125,245,1) 0%, rgba(5,5,247,1) 100%);
+
+}
+
+.blog{
+display:flex;
+flex-direction: column;
+width: 80vw;
+justify-content:flex-start;
+align-items: center;
+gap: 20px;
+}
+
+.blog-post{
+    text-align: center;
+    color: black;
+    margin: 0px 20px;
+    /* min-height: 200px; */
+    width: 80vw;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888; 
+    background-color:bisque;  
+    position: relative;  
+}
+
+.post-body{
+    margin-bottom: 30px;
+}
+
+.control-post{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
+    justify-content: space-between;
+}
+
+.edit-btn, .delete-btn{
+    padding: 5px 10px;
+}
+
+.postdate{
+    font-size: 8px;
+    
+}
+
+form{
+
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.create-btn{
+    padding: 20px 40px;
+    background: rgb(125,125,245);
+    background: linear-gradient(225deg, rgba(125,125,245,1) 0%, rgba(5,5,247,1) 100%);
+    color: whitesmoke;
+    margin:0;
+
+}
+
+.btn{
+    padding: 10px 20px;
+    background: rgb(125,125,245);
+    background: linear-gradient(225deg, rgba(125,125,245,1) 0%, rgba(5,5,247,1) 100%);
+    color: whitesmoke;
+    margin:0;
+}
+
+
+.modalcreate{
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.create-form{
+    margin: 0;
+    background-color:bisque; 
+    width: 60vw;
+    height: 50vh;
+}
+
+.create-title, .create-text{
+    margin-top: 20px;
+    width: 80%;
+}
+
+
+.redtext{
+    background-color: green;
+    color: red;
+}
